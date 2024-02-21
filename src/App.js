@@ -1,16 +1,12 @@
 import React from "react";
-import Hero from "./Hero";
-import Topics from "./Topics";
-import Guest from "./Guest";
+import Home from "./components/Home";
 
-function Home() {
+function App() {
   return (
     <>
-      <Hero />
-      <Topics />
-      <Guest />
+      <Home />
     </>
   );
 }
 
-export default Home;
+export default App;
