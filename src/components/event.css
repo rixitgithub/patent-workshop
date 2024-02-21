@@ -1,0 +1,137 @@
+#event_h1 {
+  text-align: center;
+  margin-top: 6rem;
+  font-size: 10rem;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-bottom: 0.05rem;
+}
+#event_p {
+  margin-top: -2rem;
+  text-align: center;
+  letter-spacing: 1.5rem;
+}
+
+.dates h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-bottom: 0.05rem;
+}
+
+#clrtextevent {
+  color: rgb(158, 77, 77);
+}
+.sch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16rem;
+  height: 29rem;
+  border-style: 1px solid black;
+}
+.sch h1 {
+  text-align: center;
+}
+.loader {
+  align-items: center;
+  border: 16px solid white; /* Light grey */
+  border-top: 16px solid black; /* Blue */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 764px) {
+  #event_h1 {
+    font-size: 8rem;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+}
+
+@media only screen and (max-width: 985px) {
+  #event_h1 {
+    font-size: 7rem;
+    line-height: 3rem;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  #event_p {
+    margin-top: 1rem;
+    text-align: center;
+    letter-spacing: 1.5rem;
+  }
+}
+@media only screen and (max-width: 694px) {
+  #event_h1 {
+    font-size: 5rem;
+    line-height: 3rem;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  #event_p {
+    margin-top: 1rem;
+    text-align: center;
+    letter-spacing: 1.5rem;
+  }
+  .sch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    height: 29rem;
+    border-style: 1px solid black;
+  }
+  .sch h1 {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 497px) {
+  #event_h1 {
+    font-size: 3.9rem;
+    line-height: 3rem;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  #event_p {
+    margin-top: 1rem;
+    text-align: center;
+    letter-spacing: 1rem;
+  }
+  .dates h1 {
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
+  .sch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    height: 29rem;
+    border-style: 1px solid black;
+  }
+  .sch h1 {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
