@@ -65,38 +65,6 @@ const Team = () => {
           ))}
         </div>
       </div>
-      <div className="genteam">
-        <div class="grid">
-          <div class="grid__item">
-            <div class="card">
-              <div class="card__content">
-                <h1 class="card__header">REVEALING SOON</h1>
-              </div>
-            </div>
-          </div>
-          <div class="grid__item">
-            <div class="card">
-              <div class="card__content">
-                <h1 class="card__header">REVEALING SOON</h1>
-              </div>
-            </div>
-          </div>
-          <div class="grid__item">
-            <div class="card">
-              <div class="card__content">
-                <h1 class="card__header">REVEALING SOON</h1>
-              </div>
-            </div>
-          </div>
-          <div class="grid__item">
-            <div class="card">
-              <div class="card__content">
-                <h1 class="card__header">REVEALING SOON</h1>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
   );
 };

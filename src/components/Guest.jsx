@@ -12,7 +12,7 @@ function Guest() {
       <div class="grid">
         <div class="grid__item">
           <div class="card">
-            <img class="card__img" src={profile} />
+            <img class="card__img" src={profile} alt="speaker" />
             <div class="card__content">
               <h1 class="card__header">REVEALING SOON</h1>
             </div>
@@ -20,7 +20,7 @@ function Guest() {
         </div>
         <div class="grid__item">
           <div class="card">
-            <img class="card__img" src={profile} alt="Desert" />
+            <img class="card__img" src={profile} alt="speaker" />
             <div class="card__content">
               <h1 class="card__header">REVEALING SOON</h1>
             </div>
@@ -28,7 +28,7 @@ function Guest() {
         </div>
         <div class="grid__item">
           <div class="card">
-            <img class="card__img" src={profile} />
+            <img class="card__img" src={profile} alt="speaker" />
             <div class="card__content">
               <h1 class="card__header">REVEALING SOON</h1>
             </div>

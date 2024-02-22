@@ -17,18 +17,18 @@
   margin-top: 5rem;
   display: grid;
   width: 100%;
-  grid-gap: 1rem;
+  grid-gap: 0.5rem;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   align-items: start;
 }
 @media (max-width: 60em) {
   .grid {
-    grid-gap: 3rem;
+    grid-gap: 1rem;
   }
 }
 .grid__item {
   background-color: #fff;
-  border-radius: 0.4rem;
+  border-radius: 1rem;
   overflow: hidden;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   cursor: pointer;

@@ -4,6 +4,8 @@ import Topics from "./Topics";
 import Guest from "./Guest";
 import Event from "./Event";
 import Team from "./Team";
+import Footer from "./Footer";
+import Register from "./Register";
 
 function Home() {
   return (
@@ -12,7 +14,9 @@ function Home() {
       <Topics />
       <Guest />
       <Event />
+      <Register />
       <Team />
+      <Footer />
     </>
   );
 }
