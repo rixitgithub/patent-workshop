@@ -16,10 +16,19 @@ function Hero() {
     <BrowserRouter>
       <>
         <div className="logo">
-          <img className="rgipt_logo" src={rgipt_logo} alt="RGIPT" />
-          <img className="cstup_logo" src={cstup_logo} alt="RGIPT" />
+          <div className="rgipt">
+            <h2 className="cst-head">HOSTED BY</h2>
+            <img className="rgipt_logo" src={rgipt_logo} alt="RGIPT" />
+          </div>
+          <div className="cst">
+            <h2 className="cst-head">SPONSORED BY</h2>
+            <img className="cstup_logo" src={cstup_logo} alt="RGIPT" />
+          </div>
         </div>
         <div className="title">
+          <p className="spon">
+            The Council of Science and Technology (CST) Sponsored
+          </p>
           <h3>WORKSHOP</h3>
           <p>on</p>
           <h1>Intellectual Property Rights</h1>
