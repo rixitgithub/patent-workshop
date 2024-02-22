@@ -6,13 +6,19 @@ img {
   margin-top: 2%;
   height: 10rem;
 }
+.rgipt {
+  margin-left: 1rem;
+}
+.cst {
+  margin-right: 1rem;
+}
 .logo {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 .title {
-  margin-top: -8rem;
+  margin-top: -9rem;
   line-height: 2rem;
   font-size: 2rem;
   text-align: center;
@@ -74,6 +80,13 @@ img {
     font-size: 1rem;
     text-align: center;
   }
+  img {
+    margin-top: 2%;
+    height: 6.6rem;
+  }
+  .btn {
+    margin-top: -2rem;
+  }
 }
 .link {
   text-decoration: none;
@@ -81,4 +94,16 @@ img {
 }
 .link:hover {
   color: white;
+}
+.cst-head {
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.spon {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: bold;
 }
